@@ -1,13 +1,11 @@
 import React from 'react'
-import { ImageBackground, StyleSheet, Text, View, Dimensions } from 'react-native'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { ImageBackground, StyleSheet, Text, View, Dimensions, TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
 
 
 export default function MainImages(props) {
     const navigation = useNavigation()
     let data = props.data
-    console.log(props);
     const toBigPhoto = () => {
         props.setBigPhoto(data.urls.full)
         navigation.navigate('Photo')

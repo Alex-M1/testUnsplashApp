@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, TouchableOpacity, StyleSheet, TextInput } from 'react-native'
+import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 
 
 export default function MainButtons(props) {
@@ -9,7 +9,7 @@ export default function MainButtons(props) {
         else currentPage = 1
         props.setCurrentPage(currentPage)
     }
-    const longPrev = (e) => {
+    const longPrev = () => {
         if (currentPage > 10) currentPage -= 10
         else currentPage = 1
         props.setCurrentPage(currentPage)

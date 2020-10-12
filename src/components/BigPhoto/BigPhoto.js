@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text, ImageBackground, StyleSheet } from 'react-native';
+import { Text, ImageBackground, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+
 
 
 export default function BigPhoto(props) {
