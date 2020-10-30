@@ -6,6 +6,7 @@ import AppContainer from './src/components/AppContainer';
 import store from './src/redux/store';
 import { NavigationContainer } from '@react-navigation/native';
 
+
 export default function App() {
   return (
     <>

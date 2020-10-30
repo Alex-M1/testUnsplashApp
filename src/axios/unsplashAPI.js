@@ -9,7 +9,7 @@ const instance = axios.create({
 
 export const unsplashAPI = {
     getPhotoRandom(currentPage) {
-        return instance.get(`?client_id=${API_KEY}&per_page=6&page=${currentPage}`)
+        return instance.get(`?client_id=${API_KEY}&per_page=zz&page=${currentPage}`)
             .then(responses => responses.data)
     },
 }
